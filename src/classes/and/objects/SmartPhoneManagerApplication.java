@@ -9,7 +9,17 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author 1609963
+ * @author 1609963 (benjamin Chinwe)
+ * 
+ * Task A Implement (i.e. write the code) the SmartPhone Class. Include header comments
+ * about Author, date and purpose of class at the top of file. Lay out your code in a
+ * clear, readable format. Include comments describing what each method does.
+ * 
+ * Task B Create a simple test application that allows you to test that your SmartPhone Class
+ * methods are functioning properly.
+ * 
+ * Task C Implement a SmartPhoneManagerApplication that uses the methods of the
+ * SmartPhone Class to create and use a SmartPhone object using a basic user menu.
  */
 public class SmartPhoneManagerApplication {
 
