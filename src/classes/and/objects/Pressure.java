@@ -14,8 +14,8 @@ public class Pressure {
     double value;
     String unit;
     double time;
-    double PSI_TO_PA = 6894.8;
-    double PA_TO_PSI = 0.000145038;
+    static double PSI_TO_PA = 6894.8;
+   static double PA_TO_PSI = 0.000145038;
 
     public Pressure(double value, String unit, double time) {
 
@@ -67,11 +67,11 @@ public class Pressure {
         return "Pressure{" + "value=" + value + ", unit=" + unit + ", time=" + time + '}';
     }
 
-    public double psiToPa(double psiTpa) {
-        return 0;
+    public static double psiToPa(double psiTopa) {
+        return psiTopa * PSI_TO_PA;
     }
 
-    public double paToPsi(double psiTpa) {
-        return 0;
+    public static double paToPsi(double paTopsi) {
+        return paTopsi / PA_TO_PSI;
     }
 }
